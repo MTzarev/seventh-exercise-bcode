@@ -1,16 +1,20 @@
-import ObjectNamesUpdater from "./components/ObjectNamesUpdater"
-import ObjectUpdater from "./components/ObjectUpdater"
-import ObjectInfo from "./components/ObjectInfo"
+import ObjectNamesUpdater from "./components/ObjectNamesUpdater";
+import ObjectUpdater from "./components/ObjectUpdater";
+import ObjectInfo from "./components/ObjectInfo";
+import FoodArray from "./components/FoodArray";
 function App() {
   return (
     <>
-<ObjectInfo/>
+      <FoodArray/>
+<br />
+<hr />
+      <ObjectInfo />
 
-    <ObjectNamesUpdater/>
+      <ObjectNamesUpdater />
 
-    <ObjectUpdater/>
+      <ObjectUpdater />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

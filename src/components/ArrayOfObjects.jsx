@@ -11,7 +11,8 @@ function ArrayOfObjects() {
     const newCar = {year: carYear, 
                     make: carMake, 
                     model: carModel};
-        setCars (cars=>[...cars, newCar])
+        setCars (cars=>[...cars, newCar]);
+        
         setCarYear("");
         setCarMake("");
         setCarModel("");
